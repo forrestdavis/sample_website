@@ -1,0 +1,22 @@
+#Site Settings
+name: COSC 101
+title: Introduction to Computing I
+dept: "Forrest Davis"
+depturl: "https://forrestdavis.github.io"
+inst: "Colgate University"
+insturl: "http://www.colgate.edu"
+description: Course website
+url: "https://forrestdavis.github.io"
+baseurl: "/sample_website"
+font-awesome-include: true
+permalink: /404.html
+
+#build settings
+markdown: kramdown
+exclude: ["README.md"]
+
+#Material Jekyll Theme: http://alexcarpenter.github.io/material-jekyll-theme
+themeColor: 'green' #options: purple, green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+sass:
+  style: compressed
